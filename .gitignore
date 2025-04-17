@@ -10,6 +10,13 @@ radiant_exp_adv.csv
 radiant_gold_adv.csv
 teamfights.csv
 teams.csv
+players.csv
+players.csv
+
+./202501
+./202502
+./202503
+./202504
 
 # Игнорировать другие возможные файлы данных
 *.parquet
