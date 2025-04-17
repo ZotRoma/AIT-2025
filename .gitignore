@@ -1,0 +1,40 @@
+# Игнорировать папки с датасетами
+all_word_counts.csv
+chat.csv
+cosmetics.csv
+draft_timings.csv
+main_metadata.csv
+objectives.csv
+picks_bans.csv
+radiant_exp_adv.csv
+radiant_gold_adv.csv
+teamfights.csv
+teams.csv
+
+# Игнорировать другие возможные файлы данных
+*.parquet
+*.feather
+*.pickle
+*.hdf5
+
+# Игнорировать временные файлы и кэш Jupyter
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Игнорировать файлы, созданные IDE или редакторами
+.vscode/
+.idea/
+*.swp
+
+# Игнорировать файлы вывода (например, сохранённые графики)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.html
+
+# Игнорировать виртуальные окружения
+venv/
+env/
